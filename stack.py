@@ -3,7 +3,7 @@ DD/MM/YYYY
 25/11/2022
 
 stack data structure implementation (Python)
-by, well uh me i did that :]
+by, well uhhh me i did that :]
 """
 
 class stack():
