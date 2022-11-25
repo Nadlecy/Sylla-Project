@@ -5,3 +5,7 @@ DD/MM/YYYY
 stack data structure implementation (Python)
 by Remy "Swirlinkap"
 """
+
+class stack():
+    def __init__():
+        
