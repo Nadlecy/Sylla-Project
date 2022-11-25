@@ -1,4 +1,4 @@
-# Sylla-Project
+# Sylla Project
 
 ## Hi im creating what I call the sylla project
 
