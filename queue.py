@@ -34,7 +34,7 @@ class queue():
         return self.front.data
 
 class queueCell():
-    def __init__(self,name,data,nextCell = None):
+    def __init__(self,name,data,nextCell = None,prevCell=None):
         self.name = name
         self.data = data
         self.next = nextCell
