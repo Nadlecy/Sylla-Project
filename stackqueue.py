@@ -20,6 +20,13 @@ class staqueue():
             self.end.nextCell = newCell
             self.end = newCell
     
+    def topRemove(self):
+        a = self.front
+        if self.end == self.front:  #if this assertion ever applies
+            self.end = self.front.nextCell #self.end will always just become None
+        self.front = self.front.nextCell
+        return a
+
     def frontName(self):
         return self.front.name
 
