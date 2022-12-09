@@ -20,11 +20,8 @@ class stack():
         newCell.next = self.top
         self.top=newCell
     
-    def topName(self):
-        return self.top.name
-
-    def topData(self):
-        return self.top.data
+    def top(self):
+        return self.top
         
 
 class stackCell():
@@ -32,3 +29,9 @@ class stackCell():
         self.name = name
         self.data = data
         self.next = nextCell
+        
+    def cellName(self):
+        return self.name
+    
+    def cellData(self):
+        return self.data
